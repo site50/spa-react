@@ -1,0 +1,150 @@
+.App {
+	text-align: center;
+}
+.block1{
+	width: 90%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2%;
+	font-size: 0.9rem;
+	margin-top: 1rem;
+	background-color: #5a5959;
+	border: 5px solid #eb8989;
+}
+.need1{
+	background-color:pink;
+	
+}
+img{
+	width: 20%;
+	cursor:pointer;
+}
+.img1{
+	width: 100%;
+}
+.red{
+	color:red;
+}
+.green{
+	color:green;
+}
+.box_router{
+	background-color:#defff4;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.button_menu{
+	margin: 1rem;
+	height: 3.5rem;
+	margin-left: 4.3rem;
+}
+.b_m{
+	font-size: 2rem;	
+	
+}
+.helping{
+	float:right;
+	padding-right:5rem;
+	background-color:red;
+	margin:13rem;
+}
+.setting{
+	background-color: antiquewhite;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+a{
+	color:white;	
+	text-decoration: none;
+	font-size: 1.3rem;
+}
+a:hover{
+	background-color: #1c3028ab;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 8px;
+	background-color: #f4f4f7ab;
+	color: black;
+	transition: 0.5s;
+}
+.close_box{
+	float: right;
+	color: white;
+	border: 2px solid white;
+	margin: 1rem;
+	width: 3rem;
+	text-align: center;
+	cursor: pointer;
+	
+	border-radius: 20%;
+	height: 3rem;
+	font-weight: 700;
+	font-size: 2rem;
+	margin-right: 3rem;
+}
+.box_page{
+	color:green;
+	background-color: antiquewhite;
+}
+.all_page{
+	background-color:orange;
+}
+.menu_all{
+	position: absolute;
+	background-color: #101010;
+	opacity: 0.8;
+	width: 90%;
+	height: 100%;
+	z-index: 1;
+	border-radius: 20px;
+	animation-name                   : fade      ;
+	animation-duration             : 2s       ;
+	animation-iteration-count:     1       ;
+	animation-direction            : alternate ;
+	animation-name: example;
+	animation-duration: 1.5s;  
+	animation-fill-mode: forwards;
+	top: -5.5rem;
+}
+@keyframes fade {
+	from { background:black; }
+	to   { background:#101010; }
+}
+@keyframes example {
+	from {top: -5.5rem;}
+	to {top: 5.5rem; background-color: blue;}
+}
+#menu{
+	margin: 1rem;
+	margin-left: 5rem;
+	font-family: serif;
+}
+.load_box{
+	width:70%;
+	height:7rem;
+	text-align:center;
+	font-size:2rem;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #b0ffff;
+	border-radius: 3%;
+	border: 2px solid #273e27;
+}
+.map_about{
+	width:80%;
+	height:80%;
+	background-color:aqua;
+}
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+p,h1,h3,h2,h4{margin: 1rem;
+	
+}
